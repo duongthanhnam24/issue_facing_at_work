@@ -20,4 +20,4 @@ _(Chưa có)_
 
 ## Security
 
-_(Chưa có)_
+- [Webhook & Cơ chế ký HMAC](security/2026-07-16-webhook-hmac-signature.md) — Thiết kế webhook system TTS với HMAC-SHA256 chống spoofing, tampering, replay attack
