@@ -8,7 +8,7 @@ _(Chưa có)_
 
 ## Database
 
-_(Chưa có)_
+- [Prisma client không nhận model mới sau khi merge / sửa schema](database/2026-07-18-prisma-client-khong-nhan-model-moi.md) — Phải chạy `pnpm prisma generate` để regenerate client
 
 ## DevOps
 
