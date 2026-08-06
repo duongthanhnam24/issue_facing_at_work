@@ -4,7 +4,8 @@ Danh sách nhanh mọi issue đã ghi. Định dạng: `- [Tiêu đề](đườn
 
 ## Code
 
-_(Chưa có)_
+- [Nx monorepo: TS báo missing export sau rebase (stale .d.ts)](code/2026-07-18-nx-stale-dts-sau-rebase.md) — Fix bằng `pnpm nx build <lib>` để emit lại `.d.ts` sync với source mới
+- [NestJS `UnknownDependenciesException` — provider chưa export khỏi module chứa nó](code/2026-08-06-nestjs-unknown-dependencies-export-provider.md) — `providers` = private, `exports` = public. Cần export + import đầy đủ
 
 ## Database
 
@@ -12,7 +13,7 @@ _(Chưa có)_
 
 ## DevOps
 
-_(Chưa có)_
+- [GitLab CI: `needs:` trỏ tới job bị `when: never` → pipeline không tạo được](devops/2026-07-18-gitlab-needs-when-never-conflict.md) — `when: never` = xoá job khỏi pipeline, không phải skip. Fix: bỏ `needs:` khi job cha không bao giờ chạy cùng job con
 
 ## Architecture
 
