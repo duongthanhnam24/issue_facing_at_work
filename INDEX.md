@@ -17,7 +17,7 @@ Danh sách nhanh mọi issue đã ghi. Định dạng: `- [Tiêu đề](đườn
 
 ## Architecture
 
-_(Chưa có)_
+- [Fair-per-user render scheduler — Hybrid Redis counter + DB status](architecture/2026-08-06-fair-per-user-render-scheduler.md) — Chống queue monopoly khi 1 user batch 20 video. Cap K per user (Redis Lua atomic) + buffer durable (DB `PENDING_DISPATCH`) + trigger event-driven, không cần BullMQ Pro
 
 ## Security
 
